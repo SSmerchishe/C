@@ -3,6 +3,6 @@
 
 int main()
 {
-    printf("Sanya menyaet!\n");
+    printf("Sanya menyaet dwajdy!\n");
     return 0;
 }
