@@ -2,16 +2,19 @@
 
 int main(int argc, char* argv[])
 {
-    int N;
-    printf("Enter N:\n");
-    scanf("%d", &N);
+    int Z;
+    printf("Enter Z:\n");
+    scanf("%d", &Z);
     int i = 1;
-    while(i*i < N)
+    while(Z > i)
     {
-        printf("%d ", i*i);
-        i++;
+        i = i * 2;
     }
-
+    if (Z == i) {
+        printf("YES! %d is degree of 2", Z);
+    }
+    else
+        printf("NOT! %d is NOT degree of 2", Z);
     return 0;
 }
 
